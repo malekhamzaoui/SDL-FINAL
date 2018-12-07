@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="60" height="15" tilewidth="32" tileheight="32" nextobjectid="8">
+ <tileset firstgid="1" name="test" tilewidth="32" tileheight="32" spacing="2" margin="2" tilecount="198" columns="18">
+  <image source="assets/blocks1.png" width="614" height="376"/>
+ </tileset>
+ <layer name="Calque de Tile 1" width="60" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2B4gzggjgfiBDLlqWkOqWYQ67ZRgADUCjNqmEOqGaPxjQDUCjtqmDNQ8bgBCQ+0OaSaQS23DzdQD8QNeHArHc0h1QxC6nGBQiDehQUXEuFGaptDqhnk2Dnq3+HhX2zi+OTw6aGVOaSagU8cAOBgjDk=
+  </data>
+ </layer>
+ <objectgroup name="Helicopter1">
+  <object id="7" name="Helicopter1" type="Player" x="32" y="32" width="32" height="32">
+   <properties>
+    <property name="TextureID" value="helicopter"/>
+    <property name="helicopter" value="assets/helicopter.png"/>
+    <property name="numFrame" type="int" value="4"/>
+    <property name="textureHeight" type="int" value="55"/>
+    <property name="textureWidth" type="int" value="128"/>
+    <property name="callbackID" type="int" value="0"/>
+    <property name="animSpeed" type="int" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

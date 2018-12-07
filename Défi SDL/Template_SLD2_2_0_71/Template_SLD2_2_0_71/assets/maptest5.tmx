@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.1" orientation="orthogonal" renderorder="right-down" width="60" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="1">
+ <tileset firstgid="1" name="blocks1" tilewidth="32" tileheight="32" spacing="2" margin="2" tilecount="198" columns="18">
+  <image source="assets/blocks1.png" width="614" height="376"/>
+ </tileset>
+ <layer id="1" name="Calque de Tile 1" width="60" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztkw0KgzAMhXsET7CjuR838A67wmDXcH8XcNBdbU9QKCFtY2yhYz74UNOXtIlqzH+rAUdw8qzvwSFD3VBtSa52T6oabMFO6eN6kNaMSTv7UsTNQdtTrplqv7UcmnOW1H345iutG/Klenda/fp/tGrVEm3AZbyWpMohhW/Q1OvVyHoO1Z6zr0SVc209npb4Yjoz+BSrLTkfVVc4N3AHD/AEr4W5FnxG3Hvumca4dY4UPmmNkHeIvxVweTQWqk3XeoJlYr2TayM+Lj7t+QXwF6B5
+  </data>
+ </layer>
+ <objectgroup id="2" name="Helicopter1">
+  <object id="7" name="Helicopter1" type="Player" x="32" y="32" width="32" height="32">
+   <properties>
+    <property name="TextureID" value="helicopter"/>
+    <property name="animSpeed" type="int" value="0"/>
+    <property name="callbackID" type="int" value="0"/>
+    <property name="helicopter" value="assets/helicopter.png"/>
+    <property name="numFrame" type="int" value="4"/>
+    <property name="textureHeight" type="int" value="55"/>
+    <property name="textureWidth" type="int" value="128"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
